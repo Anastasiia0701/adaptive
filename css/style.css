@@ -1,10 +1,7 @@
-@import "/css/menu.css";
-@import "/css/main.css";
-@import "/css/reviews.css";
-@import "/css/video.css";
-@import "/css/instructors.css";
-@import "/css/blog.css";
-@import "/css/footer.css";
-
-
-
+@import "dist/css/menu.css";
+@import "dist/css/main.css";
+@import "dist/css/reviews.css";
+@import "dist/css/video.css";
+@import "dist/css/instructors.css";
+@import "dist/css/blog.css";
+@import "dist/css/footer.css";
