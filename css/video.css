@@ -1,0 +1,90 @@
+.video{
+width:100%;
+margin-top: 25px;
+order:-1;
+
+}
+
+.video_title{
+
+font-family: 'Playfair Display', serif;
+margin-bottom: 34px;
+	font-size: 26px;
+	font-weight: 400;
+	letter-spacing: 0.29px;
+
+}
+
+.video_item{
+	position: relative;
+	margin-bottom: 36px;
+	margin-right: 40px;
+	overflow: hidden;
+	
+
+}
+
+.play_icon{
+	width:56px;
+	height: 56px;
+	background-color: white;
+	border-radius: 50px;
+	position: relative;
+
+}
+.play_icon_tr{
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-left:-4px;
+	margin-top: -5.5px;
+	display: block;
+	width: 0;
+	height: 0;
+
+	border-top: 5.5px solid transparent;
+	 border-left: 8px solid black;
+	border-bottom:  5.5px solid transparent;
+
+}
+
+.video_item .play_icon {
+	position: absolute;
+	left: -10px;
+	bottom:-15px;
+}
+
+.video_center{
+	position: relative;
+	order:-1;
+	height: auto;
+
+
+}
+.element {
+    width: 100%;
+}
+
+
+.video_center .play_icon{
+	position: absolute;
+	left:24px;
+	bottom:32px;
+}
+
+
+@media(min-width: 1440px)	
+{
+	.video_center{
+	order:0;
+}	
+.video{
+width:280px;
+order:0;
+}
+.video_title{
+
+font-size: 36px;
+}
+
+}

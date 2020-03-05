@@ -1,0 +1,75 @@
+
+
+.review{
+	width:100%;
+
+margin-right: 20px;
+	
+}
+
+.review_title{
+
+font-family: 'Playfair Display', serif;
+margin-bottom: 23px;
+	font-size: 26px;
+	font-weight: 400;
+	letter-spacing: 0.29px;
+text-align: center;
+}
+
+.review_item{
+	position: relative;
+margin-bottom: 52px;
+padding-bottom: 15px;
+border-bottom: 1px solid #e7e7e7;
+}
+.review_item img{
+left: -18px;
+display: block;
+position: absolute;
+width:36px;
+height: 29px;
+z-index: -1;
+}
+
+
+.review_text{
+color: #999999;
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+line-height: 30px;
+font-weight: 400;
+letter-spacing: 0.06px;
+margin-bottom: 12px;
+
+}
+.reviw_author{
+
+color: #000000;
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+font-weight: 900;
+line-height: 25px;
+margin-bottom: 1px;
+}
+h2{
+margin-block-start: 0em;
+    margin-block-end: 0.5em;
+}
+
+@media(min-width: 1440px)	
+{
+		.review{
+			width:260px;
+			margin-top: 26px;
+	}
+.review_title{
+	margin-bottom: 53px;
+	text-align: left;
+	font-size: 36px;
+}
+h2{
+margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+}
